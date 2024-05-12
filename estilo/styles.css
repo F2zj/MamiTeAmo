@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'ballons';
+    src: url(../fuentes/Candylove\ PERSONAL\ USE\ ONLY!.ttf);
+}
+
+@font-face {
+    font-family: 'Kasper';
+    src: url(../fuentes/Kasper\ Lullaby.otf);
+}
+
+@font-face {
+    font-family: 'sunday';
+    src: url(../fuentes/Sunday\ Best\ ttf.ttf);
+}
+
+@keyframes animabrir {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes agrandar {
+    0% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+}
+
+@keyframes botonabr {
+    0% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+}
+
+.titulo {
+    
+    
+    font-family: 'ballons';
+    font-size: 30px;
+    user-select: none;
+}
+
+body {
+    height: 1000px;
+    width: 600px;
+    user-select: none;
+    background: linear-gradient(100deg, red, rgb(252, 154, 170));
+}
+
+.boton {
+    font-family: 'Kasper';
+    background-color: rgb(97, 97, 209);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.boton:active {
+    transform: scale(0.9);
+}
+
+.cuadr {
+    animation: animabrir 1s forwards;
+    border-radius: 10px;
+    background-color: rgb(178, 218, 86);
+    box-shadow: 20px 20px 20px;
+    font-family: 'Kasper';
+    border-style: dashed;
+    padding: 5px;
+    width: 310px;
+    height: 460px;
+    border-color: chocolate;
+    box-align: center;
+    user-select: none;
+}
+
+.boton2 {
+    font-family: 'Kasper';
+    background-color: rgb(226, 81, 81);
+    border-radius: 10px;
+    float: right;
+    user-select: none;
+}
+
+.boton2:active {
+    transform: scale(0.9);
+}
+.imagene{ text-align: left;
+    height: auto;
+    
+    
+}
+.imagen {
+    user-select: none;
+    
+    height: 320px;
+    width: 300px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+
+
+.heart2 {
+    user-select: none;
+    transform: rotate(45deg);
+    text-align: right;
+    font-size: 70px;
+    position: relative;
+    top:-380px;
+    left: -180px;
+}
